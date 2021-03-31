@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    border: 0;
+}
+/* Could not use 'Calibri' because VsCode did not have calibri font as default. While trying to import it, Google font asked money for the
+font, So used sans-serif */
+
+body {
+    background-color: #ccccff;
+    font-family: sans-serif;
+}
+#title {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+#my-form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    justify-content: center;
+}
+#hr1 {
+    width: 50%;
+    margin: 0 auto;
+}
+#name,
+#mobnumber,
+#emailid {
+    border: 2px solid black;
+    padding: 3px 9px;
+    text-decoration: none;
+    margin: 4px 10px;
+}
+.button {
+    padding: 11px 70px;
+    border: 2px solid black;
+    background-color: #ffb76f;
+    margin-left: 80px;
+    font-weight: bolder;
+}
+#disout {
+    display: none;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+.btn2 {
+    background-color: #fffcbb;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 351px) {
+    h2 {
+        font-size: 12px;
+    }
+    label {
+        font-size: 10px;
+    }
+    input[type="text"] {
+        padding: 8px;
+    }
+    input[type="button"] {
+        padding: 4px 20px;
+    }
+    div#whole {
+        width: 70%;
+        margin: 10px 30% 10px 11%;
+    }
+}
+@media only screen and (max-width: 350px) {
+    input[type="submit"] {
+        padding: 5px 45px;
+        font-size: 9px;
+    }
+    input[type="text"] {
+        padding: 1px 6px;
+    }
+    input[type="number"] {
+        padding: 1px 6px;
+    }
+    input[type="email"] {
+        padding: 1px 6px;
+    }
+    label {
+        font-size: 9px;
+    }
+    h2 {
+        font-size: 12px;
+    }
+    button {
+        padding: 2px;
+        margin-left: 2px;
+    }
+
+    div#whole {
+        width: 70%;
+        margin: 10px 30% 10px 11%;
+    }
+}
